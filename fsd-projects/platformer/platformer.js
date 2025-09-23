@@ -37,16 +37,19 @@ createPlatform(400, 600, 100, 5, "orange" )
 createPlatform(200, 500, 100, 5, "yellow" )
 createPlatform(400, 400, 100, 5, "green") 
 
-    // TODO 3 - Create Collectables
 
+    // TODO 3 - Create Collectables
 
 
     
     // TODO 4 - Create Cannons
+//createCannon("wall", pos, secondsX1000, width, height)
+createCannon("top", 700, 2000)
+createCannon("top", 1100, 2000, 100, 100)
+createCannon("top", 300, 1300) 
 
 
-    
-    
+
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
